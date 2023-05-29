@@ -9,7 +9,15 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Hanken Grotesk", "sans-serif"],
+      },
+      colors: {
+        gray: "#999999",
+        red: "#D12D2B",
+      },
+    },
   },
   plugins: [],
-}
+};
